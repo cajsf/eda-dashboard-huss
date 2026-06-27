@@ -1,0 +1,10 @@
+project:
+  type: default
+  output-dir: docs
+  execute-dir: project
+  render:
+    - index.qmd
+    - eda_report.qmd
+
+execute:
+  freeze: auto
